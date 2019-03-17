@@ -10,9 +10,11 @@ var id = {
                   "Lecture","Basket",null
                   ] };
 
-var json = '{"result":true, "count":42}';
-
+// Convertion en JSON
 var ToJSON = JSON.stringify(id);
+// stocker dans un fichier json appelé idJSON , le 2 argument est le nom de la variable qu'on veut stocker
+localStorage.setItem("idJSON", ToJSON);
+
 
 // afficher dans la console la valeur de l'objet :
 // ex :
@@ -34,3 +36,5 @@ var ToJSON = JSON.stringify(id);
 // Object { name: "alex", age: 26, sexe: "homme", profession: "instructeur", Hobby: (3) […] }
 
 // convertir les données en json
+
+// recevoir et envoyer des données dans un autre fichier json
