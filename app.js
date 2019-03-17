@@ -7,6 +7,11 @@ var id = {
   "profession":"instructeur",
   // appeler un array
   "hobby":["lecture","Basket", null]
+  // création d'un object json
+  "voitures" : {
+    "voiture1":"BMW",
+    "voiture2":"Audi",
+  }
 }
 // afficher dans la console la valeur de l'objet :
 // ex :
