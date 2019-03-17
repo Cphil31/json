@@ -6,3 +6,6 @@ var id = {
   "sexe":"homme",
   "profession":"instructeur"
 }
+// afficher dans le console la valeur de l'objet :
+// ex :
+// taper dans la console : id.name
