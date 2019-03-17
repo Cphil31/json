@@ -1,10 +1,18 @@
 console.log("hello philippe");
 // creation d'un tableau json
-var id = '{"name":"alex","age":26,"sexe":"homme","profession":"instructeur","Hobby":["Lecture","Basket",null]}';
+// objet javascript
+var id = {
+          name:"alex",
+          age:26,
+          sexe:"homme",
+          profession:"instructeur",
+          Hobby:[
+                  "Lecture","Basket",null
+                  ] };
 
 var json = '{"result":true, "count":42}';
 
-var Tojs = JSON.parse(id);
+var ToJSON = JSON.stringify(id);
 
 // afficher dans la console la valeur de l'objet :
 // ex :
@@ -24,3 +32,5 @@ var Tojs = JSON.parse(id);
 // taper Tojs
 // converti en javasript :
 // Object { name: "alex", age: 26, sexe: "homme", profession: "instructeur", Hobby: (3) […] }
+
+// convertir les données en json
