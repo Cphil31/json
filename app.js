@@ -6,11 +6,11 @@ var id = {
   "sexe":"homme",
   "profession":"instructeur",
   // appeler un array
-  "hobby":["lecture","Basket", null]
+  "hobby":["lecture","Basket", null],
   // création d'un object json
   "voitures" : {
-    "voiture1":"BMW",
-    "voiture2":"Audi",
+    "voiture1": "BMW",
+    "voiture2": "Audi",
   }
 }
 // afficher dans la console la valeur de l'objet :
@@ -21,3 +21,8 @@ var id = {
 // ex :
 // taper dans la console : id.hobby[1]
 // resultat basket
+
+// affichage dans la console la valeur d'un object :
+// ex:
+// taper dans la console : id.voitures.voiture1
+// resultat "BMW"
